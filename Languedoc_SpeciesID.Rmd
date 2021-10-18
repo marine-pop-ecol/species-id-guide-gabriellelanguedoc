@@ -10,93 +10,37 @@ output:
 
 \newpage
 
-# *Nucella ostrina* (Northern Striped Dogwinkle)
+# *Calliostoma ligatum* (Blue top snail)
 
 ## Description
 
-This whelk is distinguished by its alternating lines of thick and thin bands on its shell. Additionally, it can be identified by the three indistinct whorls on its shell. Colors can range from dark browns, blacks, and browns to light greys and oranges always with a purple interior (Meschkat et al., 2014). This snail typically lives in the mid to high intertidal zones of exposed rocky shorelines from the Bering Sea to Southern California. The end of its shell known as the umbilicus is closed. It is most commonly found along barnacle and mussel beds as this is their preferred diet. This species feeds by drilling a hole with its radula mouthpart into its prey and extracting digestive enzymes which are then extracted by its long proboscis (*E-Fauna BC Atlas Page*, 2021).  *N. ostrina* is commonly mistaken for the northern channeled dog winkle (*Nucella canaliculata*) as well as the proposed northern lined dog winkle (*Nucella analoga*). Both of these species can be distinguished from *N.ostrina* because of their slender distinctive whorls and smaller body sizes. To reproduce, females deposit leathery embryonic capsules attached by stalks to the rock from which the eggs develop and hatch as juveniles after about 2.5-4 months (Lloyd & Gosselin, 2007). Therefore, there is no larval feeding stage and maternal care is critical to the survival of the offspring. Each capsule will produce about 20 juveniles.
+*Calliostoma ligatum*'s shells are cone-shaped with three distinct convex whorls, and are generally 2.5 to 3 cm in diameter and 1.7 to 3 cm tall (Tuskes 2019; Crowles 2004; Meschkat et al., 2013). ). The colour of their unbeaded spiral ridges generally alternates between light golden or tan and chocolate brown, although spirals can be white, grey, black or red. If the shell is worn or damaged a distinctive blue inner layer is visible, which can also be seen in the inner edge of empty shells. The shell has a closed umbilicus, and its opening is rounded with a pearly interior. The snail’s foot has a distinctive bright orange sole. 
 
-## Questions
+*Calliostoma ligatum* is present from central Alaska to southern California (Metschkat et al., 2013; Harbo 2011). It can be found intertidally but also at depths of up to 30 meters in eel grass and kelp beds, and rocky areas. Blue top snails are omnivorous, and although they mainly consume *Macrocystis* and other brown algae they also eat diatoms, ascidians, sponges, bryozoans, and detritus (Crowles 2004; Meschkat et al., 2013). Their main predators are sea stars and sunflower stars, but, interestingly, they do not demonstrate antipredator behaviour towards predatory snails (Hoffman, 1980). As broadcast spawners, male *Calliostoma ligatum* release sperm into the water column, while eggs are released by females sheathed in mucous strands that await fertilization (Holyvoak 1988). After fertilization, they undergo several changes over 12 days to become planktonic larvae, veligers, and then juvenile snails. They reach sexual maturity after 1 year. Blue top snails may be confused for Purple-ringed top snails (*Calliostoma annulatum*), but the beaded spirals on Purple-ringed top snails are easily differentiated from the smooth spirals of Blue top snails. Other snails in the area either do not have a similar top-like shell morphology, or lack the distinguishable spirals and orange foot of the top snails. 
 
-1. Does this snail have a banding pattern that alternates between thick and thin stripes?
-2. Does this snail have three indistinct whorls?
-3. Is the inside of the shell purple? 
- 
+
+## Identification Questions
+
+1) Is the shell of the snail top shaped (not cone shaped) with three convex whorls? 
+
+2) Does the snail have a bright orange foot? 
+
+3) Are the spiral ridges on the snail's shell smoothed (not beaded)? 
+
 
 \newpage 
 
 ## Figures
 
-```{r Northern-Striped-Dogwinkle, fig.align = 'left', out.width = "50%", out.height = "30%", fig.cap = "Figure 1. Showing *Nucella ostrina* distinctive features such as closed umbilicus, indistinct whorls, purple interior shell and operculum. ", fig.cap.align = 'left', echo=FALSE}
-knitr::include_graphics(here::here("images", "Northern-Dogwinkle-Drawing.JPG"))
+```{r Calliostoma_drawing, fig.align = 'left', out.width = "50%", out.height = "30%", fig.cap = "Calliostoma ligatum positioned in ventral (A) lateral (B) views with important identifying characteristics labelled.", fig.cap.align = 'left', echo=FALSE}
+knitr::include_graphics(here::here("images", "Calliostoma_drawing.jpg"))
 ```
 
-```{r southern-right-whale-skull, fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "Showing *Nucella ostrina* collected from Scotts Bay of Bamfield, BC, Canada in October of 2021., figure is left-aligned.", echo=FALSE}
-knitr::include_graphics(here::here("images", "Northern Striped Dogwinkle Picture.jpg"))
+```{r Calliostoma_size, fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "Calliostoma ligatum shells (containing Hermit crabs) collected at Scott's Bay.", echo=FALSE}
+knitr::include_graphics(here::here("images", "Calliostoma_size.png"))
 ```
+
+
 
 \newpage 
 
-## Questions
-
-1. Very interesting and useful question 
-2. Another wildly helpful question
-3. A third, MOST fascinating question
-
-# *Balaena mysticetus* (Bowhead whale)
-
-## Description
-
-Bowhead whales are very rotund, but often have a distinct "neck" region. The head is large... Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. Text text text text. **Bold text bold text bold text.** *Italicized text italicized text italicized text*. 
-
-\newpage 
-
-## Figures
-
-```{r bowhead-whale, fig.align = 'centered', out.width = "50%", out.height = "30%", fig.cap = "This is the bowhead whale, figure is centered.", echo=FALSE}
-knitr::include_graphics(here::here("images", "bowhead.png"))
-```
-
-```{r bowhead-whale-skull, fig.align = 'centered', out.width = "50%", out.height = "30%", fig.cap = "This is the skull of the bowhead whale skull, figure is centered.", echo=FALSE}
-knitr::include_graphics(here::here("images", "bowhead-skull.png"))
-```
-
-```{r bowhead-whale-skull-lateral, fig.align = 'centered', out.width = "50%", out.height = "30%", fig.cap = "This is the skull of the bowhead whale skull, figure is centered.", echo=FALSE}
-knitr::include_graphics(here::here("images", "bowhead-skull-lateral.png"))
-```
-
-\newpage 
-
-## Questions
-
-1. Very interesting and useful question 
-2. Another wildly helpful question
-3. A third, MOST fascinating question
-
-\newpage
-
-
-# Supplemental Information
-
-```{r, message = FALSE, echo = FALSE}
-library(tidyverse)
-library(here)
-
-whale_table = read_csv(here("./data/whale-table.csv"))
-knitr::kable(whale_table, caption = "Whale morphometrics and other infomration.")
-```
-
-## Figures
-
-```{r, echo = FALSE, fig.cap= "Whale length and whale weight compared by species", message = FALSE, out.width = "50%", out.height = "50%"}
-
-whale_data = read_csv(here("./data/whale-size-data.csv"))
-whale_plot = ggplot(data = whale_data) +
-  geom_point(aes(x = length, y = weight, fill = species), 
-             colour = "black", 
-             size = 3, 
-             shape = 21) +
-  theme_bw() +
-  labs(x = "Whale Length", y = "Whale Weight")
-whale_plot
-```
