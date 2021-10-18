@@ -27,16 +27,12 @@ This whelk is distinguished by its alternating lines of thick and thin bands on 
 
 ## Figures
 
-```{r southern-right-whale, fig.align = 'left', out.width = "50%", out.height = "30%", fig.cap = "This is the southern right whale, figure is centered.", fig.cap.align = 'left', echo=FALSE}
-knitr::include_graphics(here::here("images", "southern-right.png"))
+```{r Northern-Striped-Dogwinkle, fig.align = 'left', out.width = "50%", out.height = "30%", fig.cap = "Figure 1. Showing *Nucella ostrina* distinctive features such as closed umbilicus, indistinct whorls, purple interior shell and operculum. ", fig.cap.align = 'left', echo=FALSE}
+knitr::include_graphics(here::here("images", "Northern-Dogwinkle-Drawing.JPG"))
 ```
 
-```{r southern-right-whale-skull, fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "This is the skull of the southern right whale skull (dorsal view), figure is left-aligned.", echo=FALSE}
-knitr::include_graphics(here::here("images", "southern-right-skull.png"))
-```
-
-```{r southern-right-whale-skull-lateral, fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "This is the skull of the southern right whale skull (lateral view), figure is left-aligned.", echo=FALSE}
-knitr::include_graphics(here::here("images", "southern-right-skull-lateral.png"))
+```{r southern-right-whale-skull, fig.align = 'left', out.width = "50%", out.height = "30%",fig.cap = "Showing *Nucella ostrina* collected from Scotts Bay of Bamfield, BC, Canada in October of 2021., figure is left-aligned.", echo=FALSE}
+knitr::include_graphics(here::here("images", "Northern Striped Dogwinkle Picture.jpg"))
 ```
 
 \newpage 
