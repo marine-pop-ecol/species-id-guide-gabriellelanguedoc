@@ -98,6 +98,7 @@ knitr::include_graphics(here::here("images", "Black Turban Differences.jpg"))
 ```
 
 \newpage
+
 # *Nucella ostrina* (Northern Striped Dogwinkle)
 
 ## Description
