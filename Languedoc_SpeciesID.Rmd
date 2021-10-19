@@ -126,5 +126,58 @@ knitr::include_graphics(here::here("images", "Northern Striped Dogwinkle Picture
 ```
 
 \newpage 
+\newpage
+
+# Supplemental Information
+
+```{r, message = FALSE, echo = FALSE}
+library(tidyverse)
+library(here)
+
+snail_table = read_csv(here("./data/snail_size.csv"))
+
+snail_table_clean = snail_table %>%
+  rename("Height (mm)" = height_mm, "Length (mm)" = length_mm) 
+
+knitr::kable(snail_table_clean, caption = "Shell morphometric measurements of four intertidal snails")
+```
+
+## Figures
+
+```{r, echo = FALSE, fig.cap= "Snail shell length and height for four intertidal snails. Snails were collected from Scott's Bay, and measured in lab using calipers", message = FALSE, out.width = "80%", out.height = "80%"}
+
+snail_plot = ggplot(data = snail_table) +
+  geom_point(aes(x = length_mm, y = height_mm, fill = Species, shape = Species), 
+             size = 3, color = "black") +
+  scale_y_continuous(limits = c(0,20))+
+  scale_x_continuous(limits =c(0,20))+
+  scale_shape_manual(values = c(21,22,23,24))+
+  scale_fill_manual(values = c("blue", "red", "green", "yellow"))+
+  theme_bw() +
+  labs(x = "Shell Length (mm)", y = "Shell Height (mm)")
+
+snail_plot
+```
+
+\newpage
+
+```{r Table, fig.align = 'left', out.width = "100%", out.height = "100%", fig.cap = "Table 2. Summary of characteristics for four intertidal snails.", fig.cap.align = 'left', echo=FALSE}
+knitr::include_graphics(here::here("images", "Summary Table.jpg"))
+```
+
+\newpage
+
+
+# Bibliography
+
+Bering, N., Hext, T., & Parker, E. (2017). Nucella lamellosa. In: Oregon Estuarine Invertebrates: Rudys' Illustrated Guide to Common Species, 3rd ed. University of Oregon Libraries and Oregon Institute of Marine Biology, Charleston, OR. https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/12913/N_lamellosa_2017_final.pdf?sequence=3
+
+Carefoot, T. (2021) Nucella lamellosa (Gmelin, 1791) Dog Whelk; Frilled Dogwinkle; Wrinkled Dog Wheld. E- Fauna BC: Electronic Atlas of the Wildlife of British Columbia. http://linnet.geog.ubc.ca/efauna/Atlas/Atlas.aspx?sciname=Nucella%20lamellosa&ilifeform=184 
+
+Crowles, D. (2004). Calliostoma ligatum. Invertebrates of the Salish Sea. Walla Walla University. https://inverts.wallawalla.edu/Mollusca/Gastropoda/Prosobranchia/Order_Archaegastropoda/Suborder_Trochina/Trochidae/Calliostoma_ligatum.html 
+
+E-Fauna BC Atlas Page. (2021). *E-Fauna BC. Nucella ostrina* (Gould, 1852) Dog Whelk; Dog Winkle. http://linnet.geog.ubc.ca/efauna/Atlas/Atlas.aspx?sciname=Nucella%20ostrina 
+
+Erlandson, J. M., Ainis, A. F., Braje, T. J., Jew, N. P., McVey, M., Rick, T. C., Vellanoweth, R. L., & Watts, J. (2015). 12,000 Years of Human Predation on Black Turban Snails (Chlorostoma funebralis) on Alta California's Northern Channel Islands. California Archaeology, 7(1), 59–91. https://doi.org/10.1179/1947461X15Z.00000000056
 
 
